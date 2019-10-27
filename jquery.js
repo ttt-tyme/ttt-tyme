@@ -11,7 +11,7 @@ setTimeout(function(){
     hoverElement("p"+[i]);
 	divHeights("p"+[i]);
   }
-},200); 
+},300); 
 
   $(window).resize(function() {
   for (var i = 0; i < titles; i++) {
