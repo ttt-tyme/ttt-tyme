@@ -3,7 +3,6 @@
 body{margin:  35px 35px 30px;
   background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62);
    background-color: #f4f4e2;
-  word-break: break-all;
   -webkit-hyphens: auto;
    -moz-hyphens: auto;
         hyphens: auto;
