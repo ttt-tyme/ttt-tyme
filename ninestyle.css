@@ -35,9 +35,9 @@ h1{
  border-width: 1.5px;
  margin-top: 0px;
  margin-bottom: 0px;
-font-size: 50px;
 line-height: 72px;
 font-size: 60px;
+  word-break: normal;
 
 }
 
@@ -45,6 +45,7 @@ h2,h3{
   margin: 0;
   display: inline-block;
   padding: 10px;
+  word-break: normal;
 }
 
 h2{
@@ -60,8 +61,6 @@ h3{
   font-family: 'Playfair Display', serif;
   font-size: 25px
   color: rgb(36,35,35);
-  
-
 }
 
 h5,h6{
@@ -70,8 +69,9 @@ h5,h6{
   font-size: 16px;
   margin: 0;
   padding: 10px;
-  
+  word-break: normal;
 }
+
 h4{font-family: 'Playfair Display', serif;
   color: rgb(36,35,35);
   text-align: center;
@@ -79,14 +79,13 @@ h4{font-family: 'Playfair Display', serif;
   font-size: 20px;
   margin: 0;
   padding: 10px;
+  word-break: normal;
 }
 
 img{max-width: 92%;
   max-height: auto;
   object-fit: contain;
-  filter: gray; 
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   border-style: dotted;
 padding: 3%;}
@@ -97,6 +96,7 @@ p{ text-align:justify;
   font-size: 15px ;
 text-indent: 10%;
 margin: 1px;
+  word-break: normal;
 }
 
 figcaption{
@@ -109,6 +109,7 @@ figcaption{
   border-style: solid none solid none;
   margin: 10px 0px 10px;
   text-indent: 10%;
+  word-break: break-all;
 }
 
 figure{
@@ -125,6 +126,7 @@ blockquote{
   border-style: solid none solid none;
   margin: 10px 0px 10px;
   text-indent: 10%;
+  word-break: normal;
 }
 
 a:link, a:visited {
@@ -150,8 +152,17 @@ article h3{
 padding: 3%;
   margin: 10px 0px 10px;
   text-indent: 10%;
+  word-break: normal;
 }
-
+div{text-align:justify;
+  font-family: 'Old Standard TT', serif;
+  color: rgb(36,35,35);
+  font-size: 15px ;
+text-indent: 10%;
+margin: 1px;
+  word-break: normal;
+}
+  
 caption{
     text-align:justify;
   font-family: 'Old Standard TT', serif;
@@ -159,6 +170,7 @@ caption{
   font-size: 15px ;
 text-indent: 10%;
 margin: 1px;
+  word-break: normal;
 }
 
 table, th, td {
@@ -177,16 +189,8 @@ ol,ul,li{
   text-align: justify;
   color: rgb(36,35,35);
   margin: 1px;
+  word-break: normal;
 }
-
-
-
-
-
-
-
-
-
 
 .oneColumn {
   column-count: 1;
@@ -195,12 +199,13 @@ ol,ul,li{
 #right {
  float: right;
 }
+
 #left, #right {
   display:inline-block;
   vertical-align:top;
   width: 45%;
   margin: 5px;
-};
+}
 hr {
   border: 0;
   height: 1px;
