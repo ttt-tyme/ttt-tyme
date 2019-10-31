@@ -1,9 +1,9 @@
-$(function() {
+
   const titles = 5;
   const paragraphs = 466;
   const timesHeightsAndHover = 20;
   var timesDoneHeightsAndHover = 0; 
-
+$(function() {
   heightsAndHover();
 
   $(window).resize(function() {
