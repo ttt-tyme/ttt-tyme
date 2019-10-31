@@ -1,17 +1,10 @@
 $(function() {
   const titles = 5;
   const paragraphs = 466;
+  const timesHeightsAndHover = 20;
+  var timesDoneHeightsAndHover = 0; 
 
-setTimeout(function(){
-  for (var i = 0; i < titles; i++) {
-    hoverElement("t"+[i]);
-	divHeights("t"+[i]);
-  }
-  for (var i = 0; i < paragraphs; i++) {
-    hoverElement("p"+[i]);
-	divHeights("p"+[i]);
-  }
-},300); 
+  heightsAndHover();
 
   $(window).resize(function() {
   for (var i = 0; i < titles; i++) {
@@ -22,6 +15,25 @@ setTimeout(function(){
   }
   });
 });
+
+
+function heightsAndHover()
+{
+setTimeout(function(){
+for (var i = 0; i < titles; i++) {
+    hoverElement("t"+[i]);
+	divHeights("t"+[i]);
+  }
+  for (var i = 0; i < paragraphs; i++) {
+    hoverElement("p"+[i]);
+	divHeights("p"+[i]);
+  }
+  for (timesDoneHeightsAndHover < timesHeightsAndHover; timesDoneHeightsAndHover++) {
+	heightsAndHover()
+  }
+},3000); 
+}
+
 
 function divHeights(element) {
   $(".l" + element).height("auto");
