@@ -28,7 +28,8 @@ for (var i = 0; i < titles; i++) {
     hoverElement("p"+[i]);
 	divHeights("p"+[i]);
   }
-  for (timesDoneHeightsAndHover < timesHeightsAndHover; timesDoneHeightsAndHover++) {
+  if (timesDoneHeightsAndHover < timesHeightsAndHover) {
+timesDoneHeightsAndHover = timesDoneHeightsAndHover +1;
 	heightsAndHover()
   }
 },3000); 
