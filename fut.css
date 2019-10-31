@@ -122,7 +122,10 @@ table, th, td {
 }
 
 
-
+div
+{
+	overflow: auto;
+}
 
 
   
