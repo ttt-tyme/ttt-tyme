@@ -184,6 +184,7 @@ caption{
 	text-align: justify;
 	font-style: italic;
 	padding-bottom: 5px;
+	break-inside: avoid;
 }
 th, td {border-bottom: 1px solid #000;
 
