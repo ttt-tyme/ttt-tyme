@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Rokkitt&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
+@import url ("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
+
 @media only screen and (min-width:7680px) { body {max-width: 100%;}
  }
 @page { size: 480mm 323mm; }
 
 html{
 	background-color: #f2f2f2;
+	background-image: url("structure_background.jpg");
+	background-repeat: repeat;
 }
 
 body{
@@ -43,7 +47,7 @@ section{
 }
 
 .textsec, .textsec1 {
-	text-align: justify;
+	text-align: left;
 }
 
 h1{
@@ -52,6 +56,7 @@ h1{
 	text-transform:uppercase;
 	margin-block-start: 0px;
 	margin-block-end: 0px;
+	
 }
 
 h2{
@@ -73,32 +78,47 @@ table, th, td {
 }
 
 article{
-	text-align: justify;
-	background:#eee;
+	/*text-align: justify;*/
+	/*background:#eee;*/
 	margin-right: 30px;
 	padding-left: 15px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	grid-gap: 0.7em;
+	grid-gap: 0.4em;
 	overflow-y: auto;
 	/*max-height: calc(100vh - 25px);*/
 	max-height: 85vh;
+	font-family: 'Crimson Text', serif;
+	word-spacing: 0.4em;
+	font-size: 101%;
 }
 
 
-p:nth-child(odd) {
-	background:#ddd;
+/*p:nth-child(odd) {
+	background:#ccc;
 	border: solid;
-	border-color: #ccc;
+	border-color: #b3b3b3;
+	border-radius: 10px;
 }
 
 p:nth-child(even){
-	background: #808080;
+	background: #737373;
 	color: #fff;
 	border: outset;
 	border-color: #ddd;
-}
+	border-radius: 10px;
+} prva varijanta*/
 
+p{
+	color: black;
+	border: outset;
+	border-radius: 10px;
+	border-color: #595959;
+	border-collapse: separate;
+	border-spacing: 15px;
+	background-color: #f2f2f2;
+	
+}
 .textsec div:nth-child(odd) {
 	background:#ddd;
 	border: solid;
@@ -118,7 +138,11 @@ div:before {
 p{
 	margin-block-start: 0px;
 	margin-block-end: 0px;
-	padding: 0.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	
 }
 
 figcaption{
