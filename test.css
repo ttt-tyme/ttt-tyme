@@ -126,5 +126,5 @@ div
 }
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-    background: #FF0000;
+    background: #8B0000;
 }
