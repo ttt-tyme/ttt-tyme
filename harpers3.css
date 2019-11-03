@@ -148,7 +148,7 @@ p{
 figcaption{
 	text-align: justify;
 	font-style: italic;
-	font-size: smaller;
+	font-size: 5px;
 	text-indent: 0;
 	word-wrap: break-word;
 }
