@@ -207,13 +207,13 @@ ul.dash li:before {
   margin: 5px;
 }
 
-#titlesec, #titlesec1, h1 {
+.lt1, .rt1 {
 	text-align: center;
 	color: #ffff1a;
 	
 }
 
-#titlesec, #titlesec1, h2, h3 {
+.lt2, .rt2, .lt3, .rt3 {
 	text-align: left;
 	padding-left: 10px;
 	padding-right: 10px;
