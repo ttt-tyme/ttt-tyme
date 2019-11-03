@@ -213,7 +213,7 @@ ul.dash li:before {
 	
 }
 
-.lt2, .rt2, .lt3, .rt3 {
+.lt2, .rt2, .lt3, .rt3, .lt4, .rt4, .lt5, .rt5 {
 	text-align: left;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -223,3 +223,4 @@ ul.dash li:before {
 .lHighlight, .rHighlight{
   background-color:#ffcccc;
 }
+
