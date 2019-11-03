@@ -239,4 +239,8 @@ table, th, td {
   font-size: 30px;
 }
 
+div
+{
+	overflow: auto;
+}
  
