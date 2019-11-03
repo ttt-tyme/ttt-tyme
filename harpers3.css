@@ -84,7 +84,7 @@ article{
 	padding-left: 15px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	grid-gap: 0.4em;
+	grid-gap: 0.8em;
 	overflow-y: auto;
 	/*max-height: calc(100vh - 25px);*/
 	max-height: 85vh;
