@@ -114,17 +114,8 @@ hr {
 table, th, td {
   border: 1px solid black;
 }
-
-div
-{
-	overflow: auto;
-}
-
-::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
-/* Optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #8B0000;
+.special{
+	table-layout:fixed;
+	width:100%;
+	word-break: break-all;
 }
