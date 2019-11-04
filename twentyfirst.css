@@ -151,8 +151,8 @@ img{margin: auto;
 	width: auto;
 	float: left;	
 	filter: gray; 
-  -webkit-filter: grayscale(1) invert(1);
-filter: grayscale(1) invert(1);
+  -webkit-filter: grayscale(1) ;
+filter: grayscale(1) ;
 }
 caption{
 	font-family: 'Soviet';
