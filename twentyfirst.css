@@ -154,6 +154,13 @@ img{margin: auto;
   -webkit-filter: grayscale(1) invert(1);
 filter: grayscale(1) invert(1);
 }
+caption{
+	font-family: 'Soviet';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+ 	color: rgb(238,232,170);
+}
 
 blockquote{
 font-family: 'Soviet';
