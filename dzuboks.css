@@ -172,9 +172,42 @@ figcaption{
 	padding-top: 8px;
 }
 
+blockquote {
+	margin: 0;
+	padding: 35px;
+	font-size: 20px;
+	color: #1a1a1a;;
+	font-style: italic;
+	text-align: center justify;
+	word-wrap: break-word;
+	color: #1a75ff;
+}
+
+table {
+	border-collapse: collapse;
+  border: 1px solid #ffff00;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+th, td {border-bottom: 1px solid #ffff66;
+	padding: 5px;
+}
+
+caption{
+	text-align: justify;
+	font-style: italic;
+	padding-bottom: 5px;
+	color: #1a75ff;
+}
+
 .dash {
 	list-style-type: none;
 }
+
 ul.dash li:before {
 	content: "\2014 ";
 }
