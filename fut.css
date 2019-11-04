@@ -121,10 +121,10 @@ table, th, td {
   border: 1px solid black;
 }
 
-
-div
-{
-	overflow: auto;
+.special{
+	table-layout:fixed;
+	width:100%;
+	word-break: break-all;
 }
 
 
