@@ -139,10 +139,10 @@ figcaption{font-family: 'Soviet';
     font-weight: normal;
     font-style: normal;
     font-size: 20px;
- 	float:right;
+ 	
  	padding: 10px;
  	color: rgb(238,232,170);
- 	max-width: 80px;
+ 	
  	word-break: break-all;
  }
 
