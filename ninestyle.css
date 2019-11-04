@@ -131,11 +131,6 @@ blockquote{
 
 a:link, a:visited {
     text-decoration: underline;
-    color: black;
-    background-color: transparent;
-}
-a:visited {
-    text-decoration: underline;
     color: rgb(36,35,35);
     background-color: transparent;
 }
