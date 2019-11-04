@@ -27,12 +27,12 @@ figcaption {
 	width: 30%;
 	text-align: justify;
 	padding-left: 0.7%;
-	font-family: 'Revalia';
+	font-family: "Audiowide";
 	border: 2px inset #C0C0C0;
 	border-radius: 10px;
 	text-shadow:0px 0px 10px #C0C0C0;
 }
-h1 {font-family: 'Orbitron';
+h1 {font-family: "Audiowide";
 	font-size: 400%;
 	animation-name: heading;
 	animation-duration: 4s;
@@ -43,7 +43,7 @@ h1 {font-family: 'Orbitron';
 
 }
 h2, h3, h4, h5, h6 {
-	font-family: 'Revalia';
+	font-family: "Audiowide";
 	text-decoration: underline overline double #C0C0C0;
 	text-shadow: 0px 0px 10px #C0C0C0;
 	width: 50%;
