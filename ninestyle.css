@@ -1,4 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+@import url("https://fonts.googleapis.com/css?family=MedievalSharp");
 @import url("https://fonts.googleapis.com/css?family=Old+Standard+TT|Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Federo&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rokkitt&display=swap");
+@font-face {
+    font-family: 'RUSKOF';
+    src: url('RUSKOF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Motherland';
+    src:url('Motherland.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cyberia';
+    src:url('Cyberia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Soviet';
+    src:url('Soviet.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body{margin:  35px 35px 30px;
   background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62);
