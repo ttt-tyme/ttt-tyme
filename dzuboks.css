@@ -12,7 +12,7 @@ body{
 	border-radius: 40px;
 	border-top-left-radius: 480px;
 	border-color: #cc0000;
-	border-top-width: 50px;
+	border-top-width: 70px;
 	border-bottom-width: 10px;
 	border-left-width: 10px;
 	border-right-width: 10px;
@@ -23,14 +23,14 @@ body{
 	border: solid;
 	border-radius: 40px;
 	border-color: #cc0000;
-	border-top-width: 50px;
+	border-top-width: 70px;
 	border-bottom-width: 10px;
 	border-left-width: 10px;
 	border-right-width: 10px;
 }
 
 section{
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-left: 200px;
 	margin-right: 25px;
 	word-wrap: break-word;
@@ -191,7 +191,6 @@ table {
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  white-space: nowrap;
 }
 
 th, td {border-bottom: 1px solid #ffff66;
@@ -218,17 +217,11 @@ ul.dash li:before {
 .special {
 	border-collapse: collapse;
 	border-style: hidden;
-	margin-left: auto;
-  	margin-right: auto;
-	white-space: nowrap;
-	width: 40%;
-	
 }
 
 .special td {
 	border: 2px solid #0047b3;
 	padding: 5px;
-	word-wrap: break-word;
 }
 
 
@@ -240,7 +233,7 @@ ul.dash li:before {
  float: right;
 }
 #left, #right {
-  padding-top:20px;
+  padding-top:15px;
   display:inline-block;
   vertical-align:top;
   width: 48%;
