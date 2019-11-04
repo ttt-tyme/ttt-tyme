@@ -191,6 +191,7 @@ table {
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
+  white-space: nowrap;
 }
 
 th, td {border-bottom: 1px solid #ffff66;
