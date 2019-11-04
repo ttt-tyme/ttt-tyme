@@ -226,5 +226,19 @@ ul.dash li:before {
   display:inline-block;
   vertical-align:top;
   width: 47%;
-  margin: 5px;
-};
+}
+
+#left {
+	margin-left: 15px;
+}
+
+#right {
+	margin-right: 15px;
+}
+.lt4, .rt4, .lt5, .rt5 {
+	line-height: 0.3em;
+}
+.textsec, .textsec1 {
+	line-height: 1.4em;
+	font-size: 103%;
+}
