@@ -155,5 +155,6 @@ table, th, td {
 	word-break: break-all;
 }
 
-
-  
+div {
+	overflow: auto;
+}
