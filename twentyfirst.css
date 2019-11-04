@@ -246,6 +246,8 @@ text-orientation: upright;
 }
 
 table, th, td {
+	table-layout:fixed;
+	width:100%;
   border: 1px solid;
   border-color: #800000;
   border-spacing: 0;
