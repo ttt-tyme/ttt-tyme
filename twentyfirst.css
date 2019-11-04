@@ -238,7 +238,11 @@ table, th, td {
     font-style: normal;
   font-size: 30px;
 }
-.special{max-width: 80%;}
+.special{
+	table-layout:fixed;
+	width:100%;
+	word-break: break-all;
+}
 	
 
 
