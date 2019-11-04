@@ -75,13 +75,17 @@ h3{
  margin: 0px;
  color: #800000;
 }
-
+h3.textsec{
+	margin-top: 30px;
+ margin-bottom: 30px;
+}
 h4{
   font-family: 'RUSKOF';
     font-weight: normal;
     font-style: normal;
  font-size: 46px;
- margin: 0;
+ margin-top: 30px;
+ margin-bottom: 30px;
 }
 
 h5{
@@ -89,12 +93,16 @@ h5{
     font-weight: normal;
     font-style: normal;
 font-size: 40px;
+	margin-top: 30px;
+ margin-bottom: 30px;
 }
 
 h6{font-family: 'Motherland';
     font-weight: normal;
     font-style: normal;
 font-size: 36px;
+	margin-top: 30px;
+ margin-bottom: 30px;
 }
 
 p{  font-family: 'Cyberia';
@@ -103,6 +111,7 @@ p{  font-family: 'Cyberia';
     font-style: normal;
   font-size: 30px;
   word-break: normal;
+ margin-bottom: 30px;
   }
 
  div.textsec{
@@ -111,6 +120,7 @@ p{  font-family: 'Cyberia';
     font-weight: normal;
     font-style: normal;
     margin: 5px;
+ margin-bottom: 30px;
 }
 
  figure{ 
@@ -120,7 +130,8 @@ p{  font-family: 'Cyberia';
   max-width: 1200px;
   max-height: 1200px;
   object-fit: contain; 
-  margin:100px; 
+  margin-top: 30px;
+ margin-bottom: 30px;
   background-color: #800000;
 background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");}
 
@@ -148,34 +159,33 @@ blockquote{
 font-family: 'Soviet';
     font-weight: normal;
     font-style: normal;
-    font-size: 36px;
-    margin:72px;
+    font-size: 30px;
+    margin-top: 30px;
+ margin-bottom: 30px;
 }
 
 a:link, a:visited {
     text-decoration: underline;
-    color: #800000;
+    color: black;
     background-color: transparent;
 }
-a:visited {
-    text-decoration: underline;
-    color: rgb(238,232,170);
-    background-color: transparent;
-}
+
 a:hover, a:active {
     text-decoration: underline overline;
-    color: rgb(36,35,35);
+    color:color: #800000;
 }
 
 ol,ul{
-	margin: 72px;
+	 margin-top: 30px;
+ margin-bottom: 30px;
 }
 
 li{
 	font-family: 'Cyberia';
     font-weight: normal;
     font-style: normal;
-  font-size: 36px;
+  font-size: 30px;
+margin-bottom: 30px;
 }
 
 .oneColumn {
@@ -237,11 +247,17 @@ table, th, td {
     font-weight: normal;
     font-style: normal;
   font-size: 30px;
+	margin-top: 30px;
+margin-bottom: 30px;
 }
 .special{
 	table-layout:fixed;
 	width:100%;
 	word-break: break-all;
+	font-family: 'Cyberia';
+    font-weight: normal;
+    font-style: normal;
+  font-size: 26px;
 }
 	
 
