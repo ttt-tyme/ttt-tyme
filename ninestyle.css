@@ -154,7 +154,7 @@ padding: 3%;
   text-indent: 10%;
   word-break: normal;
 }
-div{text-align:justify;
+div.textsec{text-align:justify;
   font-family: 'Old Standard TT', serif;
   color: rgb(36,35,35);
   font-size: 15px ;
