@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
 @import url("https://fonts.googleapis.com/css?family=MedievalSharp");
-@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT|Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=News+Cycle|Old+Standard+TT&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Federo&display=swap");
 @import url("https://fonts.googleapis.com/css?family=PT+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rokkitt&display=swap");
@@ -55,7 +55,7 @@ article{
   column-rule: 1px solid rgb(36,35,35);
 }
 h1{
- font-family: 'Playfair Display', serif;
+ font-family: 'News Cycle', sans-serif;
  font-size: 30px;
  font-weight: 800;
  color: rgb(36,35,35);
@@ -79,7 +79,7 @@ h2,h3{
 }
 
 h2{
-  font-family: 'Playfair Display', serif;
+  font-family: 'News Cycle', sans-serif;
   font-size: 25px;
     color: rgb(36,35,35);
  text-align: left;
@@ -88,13 +88,13 @@ h2{
 }
 
 h3{
-  font-family: 'Playfair Display', serif;
+  font-family: 'News Cycle', sans-serif;
   font-size: 25px
   color: rgb(36,35,35);
 }
 
 h5,h6{
-  font-family: 'Playfair Display', serif;
+  font-family: 'News Cycle', sans-serif;
   color: rgb(36,35,35);
   font-size: 16px;
   margin: 0;
@@ -102,7 +102,7 @@ h5,h6{
   word-break: normal;
 }
 
-h4{font-family: 'Playfair Display', serif;
+h4{font-family: 'News Cycle', sans-serif;
   color: rgb(36,35,35);
   text-align: center;
   color: rgb(36,35,35);
