@@ -271,3 +271,9 @@ ul.dash li:before {
 	line-height: 1.4em;
 	font-size: 103%;
 }
+
+footer {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
