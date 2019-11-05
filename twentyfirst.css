@@ -180,10 +180,7 @@ a.textsec {
     background-color: transparent;
 }
 
-a:hover, a:active {
-    text-decoration: underline overline;
-    color: black;
-}
+
 
 ol,ul{
 	 margin-top: 30px;
@@ -270,7 +267,7 @@ caption{
 	font-family: 'Soviet';
     font-weight: normal;
     font-style: normal;
-    font-size: 30px;
+    font-size: 20px;
  	color: rgb(238,232,170);
 	margin:30px;
 }	
