@@ -165,10 +165,17 @@ blockquote{
   word-break: normal;
 }
 
-a:hover, a:active {
-    text-decoration: underline overline;
-    color: #aaa;
+article a {
+    text-decoration: underline;
+    color: rgb(36,35,35);
+    background-color: transparent;
 }
+a.textsec{
+text-decoration: underline;
+    color: rgb(36,35,35);
+    background-color: transparent;
+}
+
 
 article h6{
   text-align:center;
