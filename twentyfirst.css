@@ -139,30 +139,20 @@ p{  font-family: 'Cyberia';
  margin-bottom: 30px;
 }
 
- figure{ 
-  padding: 5px;
-	
-  display:inline-block;
-  max-width: 1200px;
-  max-height: 1200px;
-  object-fit: contain; 
-  margin-top: 30px;
- margin-bottom: 30px;
-background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");}
-
+ 
 figcaption{font-family: 'Soviet';
     font-weight: normal;
     font-style: normal;
     font-size: 20px;
 	word-break: normal;
- 	padding: 10px;
+ 	margin: 10px;
  	color: rgb(238,232,170);
  }
 
 img{margin: auto;
-	max-height: 200px;
+	height: 200px;
 	width: auto;
-	float: left;	
+		
 	filter: gray; 
   -webkit-filter: grayscale(1) ;
 filter: grayscale(1) ;
