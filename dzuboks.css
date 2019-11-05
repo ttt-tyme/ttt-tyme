@@ -109,6 +109,16 @@ h3{
     padding:0px;
 }
 
+h6 {
+	text-align: left;
+	font-size: 20px;
+	color: #1a75ff;
+	font-family: 'Federo', sans-serif;
+	text-indent: 25px;
+	padding-bottom: 0px;
+}
+
+
 article{
 	font-family: 'PT Serif', serif;
 	font-size: 15px;
