@@ -173,7 +173,8 @@ article a {
     color: black;
     background-color: transparent;
 }
- a.textsec {
+
+a.textsec {
     text-decoration: underline;
     color: black;
     background-color: transparent;
@@ -181,7 +182,7 @@ article a {
 
 a:hover, a:active {
     text-decoration: underline overline;
-    color:color: #800000;
+    color: black;
 }
 
 ol,ul{
