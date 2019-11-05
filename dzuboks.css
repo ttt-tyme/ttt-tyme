@@ -220,6 +220,7 @@ table {
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
+  page-break-inside: avoid;
 }
 
 th, td {border-bottom: 1px solid #ffff66;
@@ -284,4 +285,10 @@ ul.dash li:before {
 
 .lHighlight, .rHighlight{
   background-color:#ffcccc;
+}
+
+footer {
+	display: block;
+	border: 2px solid #ffff00;
+	padding: 10px;
 }
