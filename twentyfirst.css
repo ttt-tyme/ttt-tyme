@@ -174,7 +174,7 @@ article a {
     background-color: transparent;
 }
 
-a.textsec {
+div.textsec a {
     text-decoration: underline;
     color: black;
     background-color: transparent;
