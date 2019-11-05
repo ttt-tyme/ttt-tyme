@@ -170,7 +170,7 @@ article a {
     color: rgb(36,35,35);
     background-color: transparent;
 }
-a.textsec{
+div.textsec a {
 text-decoration: underline;
     color: rgb(36,35,35);
     background-color: transparent;
