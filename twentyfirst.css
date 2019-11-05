@@ -157,13 +157,7 @@ img{margin: auto;
   -webkit-filter: grayscale(1) ;
 filter: grayscale(1) ;
 }
-caption{
-	font-family: 'Soviet';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 30px;
- 	color: rgb(238,232,170);
-}
+
 
 blockquote{
 font-family: 'Soviet';
@@ -263,15 +257,16 @@ table, th, td {
 margin-bottom: 30px;
 }
 .special{
-	table-layout:fixed;
-	width:100%;
-	word-break: break-all;
-	font-family: 'Cyberia';
-    font-weight: normal;
-    font-style: normal;
   font-size: 26px;
 }
-	
+caption{
+	font-family: 'Soviet';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+ 	color: rgb(238,232,170);
+	margin:30px;
+}	
 
 
  
