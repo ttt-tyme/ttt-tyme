@@ -32,7 +32,7 @@
 
 body{
   display: inline-block;
-  margin: 5%;
+  margin: 6%;
   word-wrap: normal;
   background-image: url("wallTop.jpg"), url("wallTop.jpg"), url("wallSide.jpg"), url("wallSide.jpg"), url("backgr.jpg");
 background-repeat: repeat-x, repeat-x, repeat-y, repeat-y, repeat;
