@@ -155,9 +155,7 @@ table, th, td {
 	word-break: break-all;
 }
 
-div {
-	overflow: auto;
-}
+
 
 h6 { font-size: 120%;
 }
