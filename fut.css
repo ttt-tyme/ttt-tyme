@@ -158,3 +158,6 @@ table, th, td {
 div {
 	overflow: auto;
 }
+
+h6 { font-size: 120%;
+}
