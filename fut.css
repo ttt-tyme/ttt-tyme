@@ -160,3 +160,7 @@ h6 { font-size: 120%;
 	text-decoration: underline overline double #C0C0C0;
 	text-shadow: 0px 0px 10px #C0C0C0;
 }
+
+th, td {
+  border: 1px solid #C0C0C0;
+}
