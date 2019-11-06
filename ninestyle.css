@@ -215,6 +215,7 @@ table, th, td {
   font-size: 15px ;
   text-align: justify;
   color: rgb(36,35,35);
+    word-break: break-all;
 }
 
 ol,ul,li{
