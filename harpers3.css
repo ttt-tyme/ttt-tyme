@@ -209,7 +209,9 @@ table {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
+h6 {
+	font-family: 'Rokkitt', 'serif';
+	font-size:20px;}
 caption{
 	text-align: justify;
 	font-style: italic;
