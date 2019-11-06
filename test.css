@@ -158,3 +158,6 @@ a {
 article {
 line-height: 18px;
 }
+
+h6 { font-size: 120%;
+}
