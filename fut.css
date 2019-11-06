@@ -75,6 +75,7 @@ h2, h3, h4, h5 {
 	text-decoration: underline overline double #C0C0C0;
 	text-shadow: 0px 0px 10px #C0C0C0;
 	width: 50%;
+	width: inherit;
 }
 
 @keyframes heading {
@@ -159,6 +160,7 @@ h6 { font-size: 120%;
 	font-family: "Audiowide";
 	text-decoration: underline overline double #C0C0C0;
 	text-shadow: 0px 0px 10px #C0C0C0;
+	width: inherit;
 }
 
 th, td {
