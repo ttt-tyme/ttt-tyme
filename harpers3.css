@@ -118,6 +118,13 @@ article{
 	font-size: 101%;
 }
 
+article a {
+	color: #000000;
+}
+
+div.textsec a {
+	color: #000000;
+}
 
 /*p:nth-child(odd) {
 	background:#ccc;
@@ -135,7 +142,7 @@ p:nth-child(even){
 } prva varijanta*/
 
 p{
-	color: black;
+	color: #000000;
 	border: outset;
 	border-radius: 10px;
 	border-color: #595959;
