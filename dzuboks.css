@@ -135,6 +135,9 @@ article{
 	/*column-count: 3;*/
 	
 }
+article a {
+	color: #cc0000;
+}
 
 div{
 	font-family: 'PT Serif', serif;
@@ -146,6 +149,10 @@ div{
 	column-width: 350px;
 	column-fill: auto;
 	
+}
+
+div.textsec a {
+	color: #cc0000;
 }
 
 .textsec {
@@ -258,6 +265,9 @@ ul.dash li:before {
 .special {
 	border-collapse: collapse;
 	border-style: hidden;
+	word-break: break-all;
+	table-layout: fixed;
+	width: 100%;
 }
 
 .special td {
