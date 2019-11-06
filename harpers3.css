@@ -216,9 +216,13 @@ table {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-h6 {
+h6 {	
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 0.8em;
 	font-family: 'Rokkitt', 'serif';
 	font-size:20px;}
+
 caption{
 	text-align: justify;
 	font-style: italic;
