@@ -116,7 +116,7 @@ h6 {
 	font-family: 'Federo', sans-serif;
 	text-indent: 25px;
 	padding-bottom: 0px;
-	-webkit-column-break-inside: avoid;
+	column-break-inside: avoid;
 }
 
 
